@@ -1,0 +1,448 @@
+---
+Aux-Files Generator:
+  Manifest Generator:
+    Description: Generates SDK manifest for the SDK package
+    Problems:
+      release_config_yml:input:
+        Warning:
+        - 'Item not found (in YAML): web-request . Some features might not work well'
+      LPC55S69:device.hardware_data:contents:devices:
+        ERROR:
+        - 'Missing metadata key: `vendor`. Key was added as a workaround'
+        - 'Missing metadata key: `vendor.device.family`. Key was added as a workaround'
+        - 'Missing metadata key: `vendor.device.type`. Key was added as a workaround'
+      middleware.template_application.mbedtls:manifest_info:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `version`. Default value used: `1.0.0`'
+      device.LPC55S69_CMSIS:manifest_info:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `version`. Default value used: `1.0.0`'
+      comp middleware.freertos.common(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`freertos`) instead
+      comp driver.wm8904(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`wm8904`) instead
+      comp driver.ili9341(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`ili9341`) instead
+      comp driver.ft6x06(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`ft6x06`) instead
+      comp middleware.wifi_qca.freertos(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`freertos`) instead
+      comp middleware.wifi_qca.freertos.drivers.flexcomm_lpc_dma(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`flexcomm`) instead
+      comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`shields`) instead
+      comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields.gt202(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`gt202`) instead
+      comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields.silex2401(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`silex2401`) instead
+      comp middleware.ntag_i2c_plus(LPC55S69.yml):
+        ERROR:
+        - 'No source file found for include path:: inc'
+        - 'No source file found for include path:: HAL_I2C/inc'
+        - 'No source file found for include path:: HAL_ISR'
+        - 'No source file found for include path:: HAL_ISR/inc'
+        - 'No source file found for include path:: HAL_NTAG/inc'
+        - 'No source file found for include path:: HAL_NTAG'
+        - 'No source file found for include path:: HAL_TMR/inc'
+      comp middleware.ntag_i2c_plus.lpc(LPC55S69.yml):
+        ERROR:
+        - 'No source file found for include path:: inc'
+        - 'No source file found for include path:: HAL_I2C/inc'
+        - 'No source file found for include path:: HAL_ISR'
+        - 'No source file found for include path:: HAL_ISR/inc'
+        - 'No source file found for include path:: HAL_NTAG/inc'
+        - 'No source file found for include path:: HAL_NTAG'
+        - 'No source file found for include path:: HAL_TMR/inc'
+      comp middleware.template_application.mbedtls(LPC55S69.yml):
+        Warning:
+        - There are no files in the component
+        ERROR:
+        - Component is useless as it doesn't contain any sources and defines
+      comp middleware.baremetal(LPC55S69.yml):
+        Warning:
+        - There are no files in the component
+      comp CMSIS_Include_common(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Include_common`) instead
+      comp CMSIS_Include_core_cm33(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Include_core_cm33`)
+          instead
+      comp CMSIS_DSP_Lib(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`CMSIS_DSP_Lib`) instead
+      comp CMSIS_Driver_Include.Common(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Common_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.CAN(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`CAN_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.Ethernet(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Ethernet_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.Ethernet_MAC(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Ethernet_MAC_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.Ethernet_PHY(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Ethernet_PHY_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.Flash(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`Flash_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.I2C(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`I2C_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.MCI(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`MCI_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.NAND(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`NAND_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.SAI(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`SAI_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.SPI(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`SPI_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.USART(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`USART_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.USB(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`USB_CMSISInclude`) instead
+      comp CMSIS_Driver_Include.USB_Device(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`USB_Device_CMSISInclude`)
+          instead
+      comp CMSIS_Driver_Include.USB_Host(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`USB_Host_CMSISInclude`)
+          instead
+      comp CMSIS_DSP_Lib.arm_ARMv8MBLl_math(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MBLl_math`)
+          instead
+      comp CMSIS_DSP_Lib.arm_ARMv8MMLl_math(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLl_math`)
+          instead
+      comp CMSIS_DSP_Lib.arm_ARMv8MMLld_math(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLld_math`)
+          instead
+      comp CMSIS_DSP_Lib.arm_ARMv8MMLldfsp_math(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLldfsp_math`)
+          instead
+      comp CMSIS_DSP_Lib.arm_ARMv8MMLlfsp_math(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLlfsp_math`)
+          instead
+      comp component.usart_adapter(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`usart_adapter`) instead
+      comp component.lists(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`lists`) instead
+      comp component.serial_manager_uart(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`serial_manager_uart`)
+          instead
+      comp component.serial_manager_usb_cdc_device_config(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`serial_manager_usb_cdc_device_config`)
+          instead
+      comp component.serial_manager_usb_cdc(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`serial_manager_usb_cdc`)
+          instead
+      comp middleware.multicore(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`multicore`) instead
+      comp device.LPC55S69_debugger(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_debugger`)
+          instead
+      comp device.LPC55S69_startup(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_startup`) instead
+      comp device.LPC55S69_linker(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_linker`) instead
+      comp device.LPC55S69_CMSIS(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_CMSIS`) instead
+      comp RTE_Device(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`RTE_Device`) instead
+      comp middleware.mcu-boot.all_files(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`all_files`) instead
+      comp middleware.mcu-boot.elftosb_gui(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`elftosb_gui`) instead
+      comp middleware.mcu-boot.lpc55s69_files(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`lpc55s69_files`) instead
+      comp device.LPC55S69_tzm_s_startup(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_s_startup`)
+          instead
+      comp device.LPC55S69_tzm_ns_startup(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_ns_startup`)
+          instead
+      comp device.LPC55S69_tzm_s_CMSIS(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_s_CMSIS`)
+          instead
+      comp device.LPC55S69_tzm_ns_CMSIS(LPC55S69.yml):
+        Warning:
+        - Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_ns_CMSIS`)
+          instead
+      example example lpcxpresso55s69_multicore_manager_cm33_core1:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_cm33_core1:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_rtos_cm33_core1:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example lpcxpresso55s69_dev_suspend_resume_hid_mouse_freertos:configuration:document:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`'
+      example lpcxpresso55s69_dev_suspend_resume_hid_mouse_bm:configuration:document:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`'
+      example lpcxpresso55s69_dev_suspend_resume_hid_mouse_lite_bm:configuration:document:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`'
+      example example lpcxpresso55s69_multicore_manager_cm33_core0:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_cm33_core0:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_rtos_cm33_core0:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example example lpcxpresso55s69_freertos_tickless:
+        ERROR:
+        - Example description (brief) cannot be empty
+      example lpcxpresso55s69_cmp_polling:configuration:document:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`'
+      example lpcxpresso55s69_cmp_interrupt:configuration:document:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`'
+      LPC55S69:
+        ERROR:
+        - Device project template component was not found in components
+  Statistics of Problems:
+    Warnings:
+      TOTAL COUNT: 53
+      Messages:
+      - "   1: Item not found (in YAML): web-request . Some features might not work
+        well"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`CAN_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`CMSIS_DSP_Lib`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Common_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Ethernet_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Ethernet_MAC_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Ethernet_PHY_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Flash_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`I2C_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Include_common`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`Include_core_cm33`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_CMSIS`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_debugger`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_linker`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_startup`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_ns_CMSIS`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_ns_startup`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_s_CMSIS`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`LPC55S69_tzm_s_startup`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`MCI_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`NAND_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`RTE_Device`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`SAI_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`SPI_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`USART_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`USB_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`USB_Device_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`USB_Host_CMSISInclude`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`all_files`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MBLl_math`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLl_math`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLld_math`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLldfsp_math`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`arm_ARMv8MMLlfsp_math`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`elftosb_gui`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`flexcomm`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`ft6x06`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`gt202`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`ili9341`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`lists`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`lpc55s69_files`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`multicore`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`serial_manager_uart`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`serial_manager_usb_cdc_device_config`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`serial_manager_usb_cdc`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`shields`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`silex2401`) instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`usart_adapter`)
+        instead"
+      - "   1: Missing key `manifest_name`. Using edited YAML ID (`wm8904`) instead"
+      - "   2: Missing key `manifest_name`. Using edited YAML ID (`freertos`) instead"
+      - "   2: There are no files in the component"
+      Locations:
+      - "   1: comp CMSIS_DSP_Lib(LPC55S69.yml)"
+      - "   1: comp CMSIS_DSP_Lib.arm_ARMv8MBLl_math(LPC55S69.yml)"
+      - "   1: comp CMSIS_DSP_Lib.arm_ARMv8MMLl_math(LPC55S69.yml)"
+      - "   1: comp CMSIS_DSP_Lib.arm_ARMv8MMLld_math(LPC55S69.yml)"
+      - "   1: comp CMSIS_DSP_Lib.arm_ARMv8MMLldfsp_math(LPC55S69.yml)"
+      - "   1: comp CMSIS_DSP_Lib.arm_ARMv8MMLlfsp_math(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.CAN(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.Common(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.Ethernet(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.Ethernet_MAC(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.Ethernet_PHY(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.Flash(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.I2C(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.MCI(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.NAND(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.SAI(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.SPI(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.USART(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.USB(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.USB_Device(LPC55S69.yml)"
+      - "   1: comp CMSIS_Driver_Include.USB_Host(LPC55S69.yml)"
+      - "   1: comp CMSIS_Include_common(LPC55S69.yml)"
+      - "   1: comp CMSIS_Include_core_cm33(LPC55S69.yml)"
+      - "   1: comp RTE_Device(LPC55S69.yml)"
+      - "   1: comp component.lists(LPC55S69.yml)"
+      - "   1: comp component.serial_manager_uart(LPC55S69.yml)"
+      - "   1: comp component.serial_manager_usb_cdc(LPC55S69.yml)"
+      - "   1: comp component.serial_manager_usb_cdc_device_config(LPC55S69.yml)"
+      - "   1: comp component.usart_adapter(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_CMSIS(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_debugger(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_linker(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_startup(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_tzm_ns_CMSIS(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_tzm_ns_startup(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_tzm_s_CMSIS(LPC55S69.yml)"
+      - "   1: comp device.LPC55S69_tzm_s_startup(LPC55S69.yml)"
+      - "   1: comp driver.ft6x06(LPC55S69.yml)"
+      - "   1: comp driver.ili9341(LPC55S69.yml)"
+      - "   1: comp driver.wm8904(LPC55S69.yml)"
+      - "   1: comp middleware.baremetal(LPC55S69.yml)"
+      - "   1: comp middleware.freertos.common(LPC55S69.yml)"
+      - "   1: comp middleware.mcu-boot.all_files(LPC55S69.yml)"
+      - "   1: comp middleware.mcu-boot.elftosb_gui(LPC55S69.yml)"
+      - "   1: comp middleware.mcu-boot.lpc55s69_files(LPC55S69.yml)"
+      - "   1: comp middleware.multicore(LPC55S69.yml)"
+      - "   1: comp middleware.template_application.mbedtls(LPC55S69.yml)"
+      - "   1: comp middleware.wifi_qca.freertos(LPC55S69.yml)"
+      - "   1: comp middleware.wifi_qca.freertos.drivers.flexcomm_lpc_dma(LPC55S69.yml)"
+      - "   1: comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields(LPC55S69.yml)"
+      - "   1: comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields.gt202(LPC55S69.yml)"
+      - "   1: comp middleware.wifi_qca.lpcxpresso55s69.freertos.shields.silex2401(LPC55S69.yml)"
+      - "   1: release_config_yml:input"
+    ERRORs:
+      TOTAL COUNT: 35
+      Messages:
+      - "   1: Component is useless as it doesn't contain any sources and defines"
+      - "   1: Device project template component was not found in components"
+      - "   1: Mandatory item not found (in YAML): `Author`. Default value used: ``"
+      - "   1: Mandatory item not found (in YAML): `License`. Default value used:
+        ``"
+      - "   1: Missing metadata key: `vendor.device.family`. Key was added as a workaround"
+      - "   1: Missing metadata key: `vendor.device.type`. Key was added as a workaround"
+      - "   1: Missing metadata key: `vendor`. Key was added as a workaround"
+      - "   2: Mandatory item not found (in YAML): `version`. Default value used:
+        `1.0.0`"
+      - "   5: Mandatory item not found (in YAML): `brief`. Default value used: `TBD-description`"
+      - "   7: Example description (brief) cannot be empty"
+      - "  14: No source file found for include path: {...}"
+      Locations:
+      - "   1: LPC55S69"
+      - "   1: comp middleware.template_application.mbedtls(LPC55S69.yml)"
+      - "   1: device.LPC55S69_CMSIS:manifest_info"
+      - "   1: example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_cm33_core0"
+      - "   1: example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_cm33_core1"
+      - "   1: example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_rtos_cm33_core0"
+      - "   1: example example lpcxpresso55s69_erpc_matrix_multiply_rpmsg_rtos_cm33_core1"
+      - "   1: example example lpcxpresso55s69_freertos_tickless"
+      - "   1: example example lpcxpresso55s69_multicore_manager_cm33_core0"
+      - "   1: example example lpcxpresso55s69_multicore_manager_cm33_core1"
+      - "   1: example lpcxpresso55s69_cmp_interrupt:configuration:document"
+      - "   1: example lpcxpresso55s69_cmp_polling:configuration:document"
+      - "   1: example lpcxpresso55s69_dev_suspend_resume_hid_mouse_bm:configuration:document"
+      - "   1: example lpcxpresso55s69_dev_suspend_resume_hid_mouse_freertos:configuration:document"
+      - "   1: example lpcxpresso55s69_dev_suspend_resume_hid_mouse_lite_bm:configuration:document"
+      - "   1: middleware.template_application.mbedtls:manifest_info"
+      - "   2: sdk_repo.yml:sdk_package_info:contents:scrs:ble"
+      - "   3: LPC55S69:device.hardware_data:contents:devices"
+      - "   7: comp middleware.ntag_i2c_plus(LPC55S69.yml)"
+      - "   7: comp middleware.ntag_i2c_plus.lpc(LPC55S69.yml)"
+  SCR Generator:
+    Description: Generates SCR.html and SW-Content-Register.txt
+    Problems:
+      sdk_repo.yml:sdk_package_info:contents:scrs:ble:
+        ERROR:
+        - 'Mandatory item not found (in YAML): `License`. Default value used: ``'
+        - 'Mandatory item not found (in YAML): `Author`. Default value used: ``'
+:failed: false

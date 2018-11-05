@@ -1,0 +1,23 @@
+release_configuration:
+  OS: Windows
+  boards: [LPCXpresso55S69]
+  devices: [LPC55S69]
+  eula:
+  - {path: LA_OPT_Base_License.htm}
+  example-sets: []
+  input: {directory: /dev/shm/workspace/250_Niobe4/superset/superset, repo: mcu-sdk-2.0,
+    tag: NOTAG, type: SuperSet}
+  kits: []
+  output: {directory: /dev/shm/workspace/250_Niobe4/full_CFG_LPCXpresso55S69, type: SDK
+      package ZIP}
+  productname: MCUXpressoSDK
+  sdk:
+    manifest:
+      brief: TBD
+      format_versions: ['3.3', '3.4']
+      id: SDK_2.x_full_LPCXpresso55S69
+      name: SDK 2.5.0 JENKINS full_LPCXpresso55S69
+    package_name: full_LPCXpresso55S69
+    tag: TAG
+  toolchains: [iar, armgcc, mdk, mcux]
+  version: 2.4.0

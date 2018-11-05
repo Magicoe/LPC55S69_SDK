@@ -1,0 +1,208 @@
+---
+FRDM-K64F-AGM01:
+  board: FRDM-K64F
+  board_kit: frdmk64f_agm01
+  belong-to: issdk
+FRDM-K64F-AGM04:
+  board: FRDM-K64F
+  board_kit: frdmk64f_agm04
+  belong-to: issdk
+FRDM-K64F-MULT2B:
+  board: FRDM-K64F
+  board_kit: frdmk64f_mult2b
+  belong-to: issdk
+FRDM-K64F-OM13588:
+  board: FRDM-K64F
+  board_kit: frdmk64f_om13588
+  belong-to: usb
+FRDM-K64F-OM13790HOST:
+  board: FRDM-K64F
+  board_kit: frdmk64f_om13790host
+  belong-to: usb
+
+EVKB-IMXRT1050-AGM01:
+  board: EVKB-IMXRT1050
+  board_kit: evkbimxrt1050_agm01
+  belong-to: issdk
+EVKB-IMXRT1050-OM13588:
+  board: EVKB-IMXRT1050
+  board_kit: evkbimxrt1050_om13588
+  belong-to: usb
+EVKB-IMXRT1050-OM13790HOST:
+  board: EVKB-IMXRT1050
+  board_kit: evkbimxrt1050_om13790host
+  belong-to: usb
+
+EVK-MIMXRT1020-AGM01:
+  board: EVK-MIMXRT1020
+  board_kit: evkmimxrt1020_agm01
+  belong-to: issdk
+EVK-MIMXRT1020-OM13588:
+  board: EVK-MIMXRT1020
+  board_kit: evkmimxrt1020_om13588
+  belong-to: usb
+EVK-MIMXRT1020-OM13790HOST:
+  board: EVK-MIMXRT1020
+  board_kit: evkmimxrt1020_om13790host
+  belong-to: usb
+
+EVK-MIMXRT1060-AGM01:
+  board: EVK-MIMXRT1060
+  board_kit: evkmimxrt1060_agm01
+  belong-to: issdk
+EVK-MIMXRT1060-OM13588:
+  board: EVK-MIMXRT1060
+  board_kit: evkmimxrt1060_om13588
+  belong-to: usb
+EVK-MIMXRT1060-OM13790HOST:
+  board: EVK-MIMXRT1060
+  board_kit: evkmimxrt1060_om13790host
+  belong-to: usb
+
+EVK-MIMXRT1050-AGM01:
+  board: EVK-MIMXRT1050
+  board_kit: evkmimxrt1050_agm01
+  belong-to: issdk
+EVK-MIMXRT1050-OM13588:
+  board: EVK-MIMXRT1050
+  board_kit: evkmimxrt1050_om13588
+  belong-to: usb
+
+FRDM-K22F-AGM01:
+  board: FRDM-K22F
+  board_kit: frdmk22f_agm01
+  belong-to: issdk
+FRDM-K22F-AGMP03:
+  board: FRDM-K22F
+  board_kit: frdmk22f_agmp03
+  belong-to: issdk
+FRDM-K22F-SA9500:
+  board: FRDM-K22F
+  board_kit: frdmk22f_sa9500
+  belong-to: issdk
+FRDM-K22F-OM13588:
+  board: FRDM-K22F
+  board_kit: frdmk22f_om13588
+  belong-to: usb
+FRDM-K22F-OM13790HOST:
+  board: FRDM-K22F
+  board_kit: frdmk22f_om13790host
+  belong-to: usb
+
+FRDM-K32W042-AGM01:
+  board: FRDM-K32W042
+  board_kit: frdmk32w042_agm01
+  belong-to: issdk
+
+FRDMKE15-DP300x:
+  board: FRDM-KE15Z
+  board_kit: frdmke15z_dp300x
+  belong-to: issdk
+FRDMKE15-DP5004:
+  board: FRDM-KE15Z
+  board_kit: frdmke15z_dp5004
+  belong-to: issdk
+
+FRDMKL25-A8471:
+  board: FRDM-KL25Z
+  board_kit: frdmkl25z_a8471
+  belong-to: issdk
+FRDMKL25-A8491:
+  board: FRDM-KL25Z
+  board_kit: frdmkl25z_a8491
+  belong-to: issdk
+FRDMKL25-B3115:
+  board: FRDM-KL25Z
+  board_kit: frdmkl25z_b3115
+  belong-to: issdk
+FRDMKL25-P3115:
+  board: FRDM-KL25Z
+  board_kit: frdmkl25z_p3115
+  belong-to: issdk
+
+FRDMKL27-A8471:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_a8471
+  belong-to: issdk
+FRDMKL27-A8491:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_a8491
+  belong-to: issdk
+FRDMKL27-AGMP03:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_agmp03
+  belong-to: issdk
+FRDMKL27-P3115:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_p3115
+  belong-to: issdk
+FRDM-KL27Z-OM13588:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_om13588
+  belong-to: usb
+FRDM-KL27Z-OM13790HOST:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_om13790host
+  belong-to: usb
+
+FRDM-KL28Z-OM13588:
+  board: FRDM-KL28Z
+  board_kit: frdmkl28z_om13588
+  belong-to: usb
+FRDM-KL28Z-OM13790HOST:
+  board: FRDM-KL28Z
+  board_kit: frdmkl28z_om13790host
+  belong-to: usb
+
+LPCXpresso54018-OM13585:
+  board: LPCXpresso54018
+  board_kit: lpcxpresso54018_om13585
+  belong-to: usb
+LPCXpresso54018-OM13588:
+  board: LPCXpresso54018
+  board_kit: lpcxpresso54018_om13588
+  belong-to: usb
+LPCXpresso54018-OM13790HOST:
+  board: LPCXpresso54018
+  board_kit: lpcxpresso54018_om13790host
+  belong-to: usb
+
+LPCXpresso54608-OM13588:
+  board: LPCXpresso54608
+  board_kit: lpcxpresso54608_om13588
+  belong-to: usb
+LPCXpresso54608-OM13790HOST:
+  board: LPCXpresso54608
+  board_kit: lpcxpresso54608_om13790host
+  belong-to: usb
+
+FRDMKL27-B3115:
+  board: FRDM-KL27Z
+  board_kit: frdmkl27z_b3115
+  belong-to: issdk
+
+LPCXPRESSO54114-AGM01:
+  board: LPCXpresso54114
+  board_kit: lpcxpresso54114_agm01
+  belong-to: issdk
+  core_id: cm4f
+LPCXPRESSO54114-AGMP03:
+  board: LPCXpresso54114
+  board_kit: lpcxpresso54114_agmp03
+  belong-to: issdk
+  core_id: cm4f
+LPCXpresso54114-OM13588:
+  board: LPCXpresso54114
+  board_kit: lpcxpresso54114_om13588
+  belong-to: usb
+  core_id: cm4f
+LPCXpresso54114-OM13790HOST:
+  board: LPCXpresso54114
+  board_kit: lpcxpresso54114_om13790host
+  belong-to: usb
+  core_id: cm4f
+LPCXpresso55S69-OM13790HOST:
+  board: LPCXpresso55S69
+  board_kit: lpcxpresso55s69_om13790host
+  belong-to: usb
+  core_id: cm33_core0

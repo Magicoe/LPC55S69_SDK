@@ -1,0 +1,36 @@
+var group__inputmux__driver =
+[
+    [ "SCT0_INMUX0", "group__inputmux__driver.html#ga29442361e9aac5c34bf2278f71ee29e1", null ],
+    [ "FSL_INPUTMUX_DRIVER_VERSION", "group__inputmux__driver.html#ga166fc4ada71e4fa9e160774700c976d7", null ],
+    [ "inputmux_connection_t", "group__inputmux__driver.html#ga7ac6f6ac5dd2b621eabb60d2ab48163b", [
+      [ "kINPUTMUX_SctGpi0ToSct0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba1c9749a456ccccfbc836c2d6f4197ec0", null ],
+      [ "kINPUTMUX_DebugHaltedToSct0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba1e042af47b407b5b414e22bab7f3e87d", null ],
+      [ "kINPUTMUX_I2sSharedWs1ToTimer0Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba9fee4ead763b4051f5b0d66de57ed581", null ],
+      [ "kINPUTMUX_I2sSharedWs1ToTimer1Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163bac166df1d347c733c0ffa2e7302c2bce8", null ],
+      [ "kINPUTMUX_I2sSharedWs1ToTimer2Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba09dc347f4f4746da24ea65316d5e9433", null ],
+      [ "kINPUTMUX_GpioPort1Pin31ToPintsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba55c96954290ceb81ca5340dc369e8398", null ],
+      [ "kINPUTMUX_HashDmaRxToDma0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba10a74dfb72512bce9cfd3465ea6d5d22", null ],
+      [ "kINPUTMUX_Dma0Adc0Ch1TrigoutToTriginChannels", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163badf18885a22b46f24dccbccec4febf76e", null ],
+      [ "kINPUTMUX_FreqmeGpioClk_bRef", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163badc4055d563c1b6893285188d4b16e6d1", null ],
+      [ "kINPUTMUX_FreqmeGpioClk_bTarget", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163baa5ba9aabed7c68ad544f49b4591e3927", null ],
+      [ "kINPUTMUX_I2sSharedWs1ToTimer3Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163bab78eacabe4173d4a949a9f5d7a4b355e", null ],
+      [ "kINPUTMUX_GpioPort0Pin31ToPintSecsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba0cfb059e81ec8e2d00c59d87945e7964", null ],
+      [ "kINPUTMUX_HashDmaRxToDma1", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba60d23143cb6c96f9381e011a0f4b711c", null ]
+    ] ],
+    [ "kINPUTMUX_SctGpi0ToSct0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba1c9749a456ccccfbc836c2d6f4197ec0", null ],
+    [ "kINPUTMUX_DebugHaltedToSct0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba1e042af47b407b5b414e22bab7f3e87d", null ],
+    [ "kINPUTMUX_I2sSharedWs1ToTimer0Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba9fee4ead763b4051f5b0d66de57ed581", null ],
+    [ "kINPUTMUX_I2sSharedWs1ToTimer1Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163bac166df1d347c733c0ffa2e7302c2bce8", null ],
+    [ "kINPUTMUX_I2sSharedWs1ToTimer2Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba09dc347f4f4746da24ea65316d5e9433", null ],
+    [ "kINPUTMUX_GpioPort1Pin31ToPintsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba55c96954290ceb81ca5340dc369e8398", null ],
+    [ "kINPUTMUX_HashDmaRxToDma0", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba10a74dfb72512bce9cfd3465ea6d5d22", null ],
+    [ "kINPUTMUX_Dma0Adc0Ch1TrigoutToTriginChannels", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163badf18885a22b46f24dccbccec4febf76e", null ],
+    [ "kINPUTMUX_FreqmeGpioClk_bRef", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163badc4055d563c1b6893285188d4b16e6d1", null ],
+    [ "kINPUTMUX_FreqmeGpioClk_bTarget", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163baa5ba9aabed7c68ad544f49b4591e3927", null ],
+    [ "kINPUTMUX_I2sSharedWs1ToTimer3Captsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163bab78eacabe4173d4a949a9f5d7a4b355e", null ],
+    [ "kINPUTMUX_GpioPort0Pin31ToPintSecsel", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba0cfb059e81ec8e2d00c59d87945e7964", null ],
+    [ "kINPUTMUX_HashDmaRxToDma1", "group__inputmux__driver.html#gga7ac6f6ac5dd2b621eabb60d2ab48163ba60d23143cb6c96f9381e011a0f4b711c", null ],
+    [ "INPUTMUX_Init", "group__inputmux__driver.html#gae02fecc3b8aab2a9d3f40f07ca7114a4", null ],
+    [ "INPUTMUX_AttachSignal", "group__inputmux__driver.html#gaa4f141e3874109e45c2a6f9be027e0ee", null ],
+    [ "INPUTMUX_Deinit", "group__inputmux__driver.html#gaf84e3b0d7a06af86ea6f1ac0d6edf382", null ]
+];

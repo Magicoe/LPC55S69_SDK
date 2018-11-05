@@ -1,0 +1,15 @@
+---
+DatatableGenerator:
+  DatatableFileCopy:
+    Description: The following files copy failed.
+    Failed_cases:
+      driver.fro_calib:
+        file_not_exist_warning: "/dev/shm/workspace/250_Niobe4/superset/superset/devices/LPC55S69/mcuxpresso/libfro_calib_softabi.a"
+      device.LPC55S69_startup:
+        file_not_exist_warning: "/dev/shm/workspace/250_Niobe4/superset/superset/devices/LPC55S69/mcuxpresso/startup_lpc55s69_cm33_core1.cpp"
+      device.LPC55S69_flash:
+        file_not_exist_warning: "/dev/shm/workspace/250_Niobe4/superset/superset/devices/LPC55S69/mcuxpresso/LPC55xx.cfx"
+      middleware.mcu-boot.elftosb_gui:
+        file_not_exist_warning: "/dev/shm/workspace/250_Niobe4/superset/superset/middleware/mcu-boot/bin/Tools/elftosb-gui/win/tcl/opt0.4/optparse.tcl"
+      files:
+        file_not_exist_warning: "/dev/shm/workspace/250_Niobe4/superset/superset/boards/lpcxpresso55s69/multicore_examples/rpmsg_lite_pingpong_tzm/cm33_core0/rpmsg_lite_pingpong_tzm_s/mdk/release/rpmsg_lite_pingpong_tzm_s_CMSE_lib.o"
